@@ -1,0 +1,821 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    color: black;
+    background-color: #F8F8F8;
+    width: auto;
+}
+
+/*.icon-facebook-sign:before{content:"\f082";}
+.icon-facebook:before{content:"\f09a";}*/
+
+.column-wrapper {
+    display: block;
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    min-width: 1000px;
+    white-space: nowrap;
+}
+
+/*.header,.logo,.search-wrapper,.search-buttons,.country-language{ border: 1px solid green}*/
+
+.header {
+    height: 50px;
+    line-height: 50px;
+    font-family: ProximaNovaCond, Arial, sans-serif;
+    margin: 30px 0 15px 46px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+.logo {
+    display: inline-block;
+    width: 88px;
+    height: 51px;
+    background: url(../../img/hh.ua.svg) no-repeat;
+    background-size: 88px 51px;
+    padding: 0;
+    margin: 0;
+}
+
+.search-wrapper {
+    display: inline-block;
+    margin-left: 32px;
+    margin-top: 0px;
+    vertical-align: top;
+}
+
+.search-form {
+    display: inline-block;
+}
+
+.input-field {
+    width: 582px;
+    height: 35px;
+    border: solid 1px #ddd;
+    border-right-style: none;
+    border-radius: 3px 0px 0px 3px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: 12px;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+input[type=text], select:focus {
+    outline: 0;
+    padding-left: 11px;
+    padding-top: 0px;
+}
+
+input::-webkit-input-placeholder {
+    word-spacing: normal;
+}
+
+select.search-filter {
+    display: inline-block;
+    height: 35px;
+    width: 106px;
+    line-height: 25px;
+    border: solid 1px #ddd;
+    border-radius: 0px 3px 3px 0px;
+    padding-top: 2px;
+    margin-left: -6px;
+    padding-left: 14px;
+    background: white url("../../img/arrow_down.png") no-repeat 92% 49%;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    overflow: hidden;
+    font-family: ProximaNovaCond, Arial, sans-serif;
+    font-size: 12px;
+    text-indent: 0px;
+    letter-spacing: normal;
+}
+
+option {
+
+}
+
+.search-buttons {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1px;
+}
+
+.search-button {
+    display: inline-block;
+    color: white;
+    background-color: #509deb;
+    height: 35px;
+    width: 100px;
+    border-radius: 3px;
+    font-family: ProximaNovaCond, Arial, sans-serif;
+    line-height: 35px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wide-search-button {
+    display: inline-block;
+    line-height: 13px;
+    font-size: 11px;
+    font-weight: lighter;
+    padding-left: 6px;
+    vertical-align: middle;
+    color: #0099FF;
+    text-decoration: none;
+    transform: translateZ(0);
+}
+
+.country-language {
+    display: inline-block;
+    margin: -1px 0 0 101px;
+    vertical-align: top;
+
+}
+
+.country, .language {
+    display: inline-block;
+    color: #989898;
+    line-height: 13px;
+    font-size: 11px;
+    font-weight: lighter;
+    text-decoration: none;
+
+}
+
+.language {
+    margin-left: 24px;
+}
+
+.main-menu {
+    display: block;
+    width: 100%;
+    min-width: 1000px;;
+    background-color: #2c2c2c;
+    color: white;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 22px;
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.4px;
+
+}
+
+li.ellipse {
+    display: inline-block;
+    width: 16px;
+    height: 29px;
+    background: #2c2c2c url("../../img/logo-ellipse.png") no-repeat;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu ul {
+    display: inline-block;
+    margin: 0px 0 0 0px;
+    vertical-align: top;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-menu li:nth-child(2),.main-menu li:nth-child(3){
+    margin-right: 27px;
+}
+.main-menu li:nth-child(3){
+    margin-right: 29px;
+}
+.main-menu li:nth-child(4),.main-menu li:nth-child(5){
+    margin-right: 28px;
+}
+.main-menu li:nth-child(6){
+    margin-right: 28px;
+}
+
+input.menu-input-field{
+    display: inline-block;
+    width:125px;
+    height: 23px;
+
+
+}
+input.menu-input-field::-webkit-input-placeholder{
+    line-height: normal;
+    font-size:14px;
+    text-indent:15px;
+    vertical-align: top;
+
+}
+input.menu-input-field::-webkit-input-placeholder::after{
+    font-family: fontAwesome;
+    content:'\f002  ';
+    color: grey;
+    padding-left: 30px;
+}
+
+
+.main-menu > ul :last-child {
+}
+
+.menu-input-field {
+    border-radius: 5px;
+}
+
+.main-menu li > ul {
+    display: none;
+}
+
+.wide-image-columns-wrapper {
+    overflow: hidden;
+
+}
+
+.wide-image {
+    max-width: none;
+    height: 374px;
+    background: url("../../img/anonymous-background.jpg") 0 50% no-repeat;
+    background-size: 101%;
+    color: white;
+    overflow: hidden;
+
+}
+
+.first-column {
+    display: inline-block;
+    width: 600px;
+}
+
+.dream-work {
+    display: inline-block;
+    margin: 0 0 0px 70px;
+    padding-top: 30px;
+    font-size: 5em;
+    text-indent: 0;
+}
+
+.resume-vacancy-buttons {
+    margin: 140px 0px 0px 0px;
+    font-size: 13pt;
+}
+
+.resume-vacancy-buttons a {
+    padding: 15px 25px;
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    border: solid 1px white;
+}
+
+.resume-vacancy-buttons a:hover {
+    background-color: white;
+    color: black;
+}
+
+.statistic {
+
+    padding-left: 30px;
+    border-left: 1px solid white;
+}
+
+.numbers {
+    font-size: 33px;
+    padding-top: 15px;
+}
+
+.letters {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.second-column {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.third-column {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 170px;
+    margin-top: 30px;
+    width: 310px;
+    overflow: hidden;
+}
+
+.login-menu {
+    display: block;
+    height: 336px;
+    background-color: rgba(55, 55, 55, 0.5);
+}
+
+.login-menu-wrapping {
+    padding: 25px 20px;
+}
+
+.registration {
+    padding-left: 30px;
+    text-decoration: none;
+    color: #989898;
+}
+
+.social-networks {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.social-networks a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.fa:before {
+    font-size: 44px;
+}
+
+.fa-facebook-official {
+}
+
+.fa-google-plus-square {
+    color: red;
+}
+
+.social-networks span {
+    display: inline-block;
+    /*  border:1px solid #FF0000;*/
+    height: 35px;
+    overflow: hidden;
+    position: relative;
+    width: 36px;
+    border-radius: 5px;
+}
+
+.social-networks i {
+    border: 1px solid rgba(55, 55, 55, 0.5);
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    line-height: inherit;
+    vertical-align: baseline;
+    background-color: white;
+}
+
+i.fa-facebook-official {
+    color: #3B5998;
+    background-color: #FF0000;
+    position: absolute;
+    top: -4px;
+    left: 0px;
+    height: 41px;
+    width: 36px;
+}
+
+i.fa-facebook-official:before {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    height: 41px;
+    width: 36px;
+}
+
+i.fa-google-plus-square {
+    color: red;
+    background-color: #FF0000;
+    position: absolute;
+    left: -10px;
+    height: 41px;
+    width: 36px;
+}
+
+i.fa-google-plus-square {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: -4px;
+    left: -1px;
+    height: 41px;
+    width: 36px;
+}
+
+.vk {
+    background: url("../../img/VK.png") no-repeat;
+}
+
+.mail-ru {
+    background: url("../../img/mail-ru.png") no-repeat;
+}
+
+.odnokl {
+    background: url("../../img/Odno.png") no-repeat;
+}
+
+.or-email {
+    color: #989898;
+}
+
+.e-mail, .pwd {
+    box-sizing: border-box;
+    width: 270px;
+    height: 35px;
+    margin-top: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.remember-me {
+    margin-top: 10px;
+}
+
+.enter-button {
+    border: 0;
+    margin-top: 15px;
+    width: 70px;
+    height: 34px;
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+}
+
+.pwd-remember {
+    color: dodgerblue;
+    margin-left: 25px;
+}
+
+.vacancies-wrapper {
+    display: inline-block;
+    width: 960px;
+}
+
+.h2 {
+    display: block;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 25px 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    vertical-align: top;
+}
+
+.vacancies-wo-header {
+    columns: 270px;
+    -webkit-columns: 280px;
+    -webkit-column-gap: 45px;
+    -moz-columns: 280px 3;
+    -moz-column-gap: 45px;
+    -moz-column-fill: auto;
+    column-gap: 53px;
+    overflow: hidden;
+    height: 550px;
+}
+
+.vacancy-wrapper {
+    display: block;
+    margin-bottom: 20px;
+    -webkit-column-break-inside: avoid;
+    -webkit-column-break-after: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    white-space: normal;
+}
+
+.vacancy-link {
+    text-decoration: none;
+    color: black;
+}
+
+span.vacancy, span.salary {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.employer > a {
+    font-size: 11px;
+    color: grey;
+    text-decoration: none;
+}
+
+.vacancies-advertise-wrapper {
+    display: inline-block;
+    width: 320px;
+    height: 665px;
+    vertical-align: top;
+    margin-left: 35px;;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.advertising-block {
+    border: solid 1px grey;
+    display: block;
+    width: 309px;
+    height: 262px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.top-wrapper {
+    display: block;
+    width: 1320px;
+    border-top: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+}
+
+.left-wrapper {
+    display: block;
+    width: 960px;
+}
+
+.logo-wrapper {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.job-in-companies-columns {
+    display: inline-block;
+    margin-left: 70px;
+    columns: 280px;
+    -webkit-columns: 280px 2;
+    -webkit-column-gap: 45px;
+    -webkit-column-fill: auto;
+    -moz-columns: 280px 3;
+    -moz-column-gap: 45px;
+}
+
+.job-in-companies-list {
+    list-style: none;
+    margin: 0;
+    /*   display:inline-table;*/
+}
+
+.job-in-companies-list li {
+    margin-bottom: 8px;
+    display: list-item;
+    -webkit-column-break-inside: avoid;
+
+}
+
+.company-name > a {
+    text-decoration: none;
+    color: black;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.vacancies-quantity {
+    display: inline-block;
+    font-size: 14px;
+    text-align: right;
+}
+
+.banners {
+    margin: 0;
+    padding: 0;
+    display: block;
+    white-space: nowrap;
+}
+
+.mini-banner {
+    display: inline-block;
+    width: 300px;
+    height: 140px;
+    display: inline-block;
+    padding: 4px;
+    margin-right: 10px;
+    border: 1px solid #dfe2e5;
+    background-color: white;
+
+}
+
+.banner-text > a {
+    display: inline-block;
+    width: 120px;
+    text-decoration: none;
+    color: black;
+    line-height: 20px;
+}
+
+.mini-image {
+    display: inline-block;
+}
+
+.banner-text {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    font-size: 14px;
+    margin: 10px 15px;
+}
+
+.banners-wrapper {
+    background-color: rgba(200, 200, 200, 0.2);
+    width: 952px;
+    padding: 30px 15px 30px 30px;
+
+}
+
+.job-by-professions-wrapper {
+    margin-top: 10px;
+}
+
+div.job-by-professions-list {
+    display: block;
+    columns: 280px 3;
+    margin-top: 20px;
+    -webkit-columns: 280px 3;
+    -webkit-column-gap: 45px;
+    -moz-columns: 280px 3;
+    -moz-column-gap: 45px;
+}
+
+ul.list-of-the-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    white-space: normal;
+}
+
+.list-element {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.link-in-list {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    line-height: 21px;
+    -webkit-column-break-inside: avoid;
+}
+
+.top-right-wrapper {
+    float: right;
+    width: 306px;
+    border-left: 1px solid darkgray;
+    padding-left: 15px;
+}
+
+.news-image {
+    width: 60px;
+    height: 60px;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-item {
+    display: block;
+    padding: 20px 0 20px;
+    border-bottom: 1px solid grey;
+}
+
+.news-text {
+    display: inline-block;
+    width: 200px;
+    white-space: normal;
+    vertical-align: top;
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
+}
+
+.bottom-left-wrapper {
+    border-top: 1px solid grey;
+    margin-right: 30px;
+}
+
+.column {
+    display: inline-block;
+    width: 320px;
+    border-right: 1px solid grey;
+    margin: 10px 20px;
+}
+
+.column:last-child {
+    border-right: none;
+}
+
+.job-in-ukraine {
+    vertical-align: top;
+}
+
+p.article {
+    white-space: normal;
+    display: block;
+    font-size: 14px;
+    line-height: 21px;
+    padding-right: 60px;
+
+}
+
+.images-wrapper {
+    display: block;
+    padding-left: 140px;
+    width: 120px;
+    height: 120px;
+    background: url("../../img/online.png") no-repeat;
+}
+
+.goo-apple {
+    display: block;
+    margin-bottom: 10px;
+    width: 128px;
+    height: 33px;
+    text-decoration: none;
+    background: #c2bfbb url("../../img/google-store.svg") no-repeat 13px;
+    background-size: 115px;
+    border-radius: 3px;
+}
+
+.goo-apple:last-child {
+    background-position: 13px 3px;
+}
+
+.footer-social-link > .fa:before {
+    font-size: 24px;
+}
+
+i.fa-facebook {
+    color: #3A5795;
+}
+
+i.fa-twitter {
+    color: #659FCB;
+}
+
+i.icon-Vkontakte {
+    font-size: 24px;
+    color: green;
+    border: none;
+    text-decoration: none
+}
+
+.footer-social {
+    display: inline-block;
+    text-align: right;
+    padding-left: 1000px;
+}
+
+.footer {
+    border-top: grey 1px solid;
+    padding-top: 20px;
+}
+
+.footer-black {
+    text-decoration: none;
+    color: black;
+    padding-right: 5px;
+    line-height: 21px;
+}
+
+.footer-grey {
+    text-decoration: none;
+    color: grey;
+    border-left: grey solid 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer-grey:last-child {
+    margin-top: 30px;
+    border: none;
+}

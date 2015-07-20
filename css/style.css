@@ -1,0 +1,36 @@
+body {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+}
+
+.header-wrapper {
+    background-color: #F8F8F8;
+    padding-top: 31px;
+    margin: 0px;
+}
+
+.logo {
+    width: 88px;
+    height: 51px;
+    background: url("../img/hh.ua.svg") no-repeat;
+    background-size: contain;
+    margin-left: 36px;
+}
+
+.header-search {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.search-select {
+    margin-left: -5px;
+    width: 582px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: white url("../img/arrow_down.png") no-repeat 92% 49%;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    overflow: hidden;
+}
