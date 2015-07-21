@@ -7,40 +7,112 @@
     <title>Работа в Киеве и Украине на HeadHunter. Поиск работы: вакансии и резюме, подбор персонала, ищу работу, поиск
         сотрудников.</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet">
 
 </head>
 <body>
-<div class="container header-wrapper">
-    <div class="col-md-2">
-        <div class="logo">
-        </div>
-    </div>
-    <div class="col-md-7">
-        <form class="form-inline">
-            <div class="form-group">
-                <label class="sr-only" for="exampleInput3">I'm Searching</label>
 
-
-                    <input type="txt" class="form-control header-search" id="exampleInput3" placeholder="Я ищу...">
-
-                        <select class="form-control search-select">
+<header>
+    <div class="container header-wrapper">
+        <div class="row">
+            <div class="col-md-1">
+                <div class="logo">
+                </div>
+            </div>
+            <div class="col-md-8 header-form">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label class="sr-only" for="exampleInput3">I'm Searching</label>
+                        <input type="text" class="form-control header-search input-" id="exampleInput3"
+                               placeholder="Я ищу...">
+                        <label class="sr-only" for="select-filter">I'm Searching</label>
+                        <select class="form-control search-select" id="select-filter">
                             <option>Вакансии</option>
                             <option>Резюме</option>
                             <option>Компании</option>
                         </select>
-
-
+                        <button type="submit" class="btn btn-info search-btn">Найти</button>
+                        <a class="btn-link wide-search-btn" href="#">Расширенный поиск</a>
+                    </div>
+                </form>
             </div>
-            <button type="submit" class="btn btn-default">Найти</button>
-            <a class="btn-link" href="#">Расширенный поиск</a>
-        </form>
+            <div class="col-md-2 text-right right-form">
+                <a href="#" class="btn-link btn-md">Работа в Украине</a>
+
+                <span class="language">RU</span>
+            </div>
+        </div>
     </div>
-    <div class="col-md-3">
-        <a href="#" class="btn-link">Работа в Украине</a>
-        <span class="language">RU</span>
+</header>
+<nav class="menu-wrapper">
+    <div class="row">
+        <ul class="nav navbar-nav navbar-inverse text-center top-menu">
+            <li class="ellipse"></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                   aria-expanded="false">Ищу работу</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Создать резюме</a></li>
+                    <li><a href="#">Как улучшить резюме</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">Ищу сотрудников</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Разместить вакансию</a></li>
+                    <li><a href="#">Прайс-лист</a></li>
+                    <li><a href="#">Описание услуг</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Помощь</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">Компании</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Каталог компаний</a></li>
+                    <li><a href="#">Работа по профессиям</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">Проекты</a>
+                <ul class="dropdown-menu">
+                    <li>Премия HR-бренд</li>
+                    <li>Полезная информация</li>
+                    <li>Обучающие вебинары</li>
+                </ul>
+            </li>
+
+        </ul>
+
+        <input type="text" name="search-phrase" placeholder="Я ищу..." class="menu-input-field fa fa-search">
+        <span class="wide-search-menu"><a href="#">Расширенный</a> </span>
     </div>
-</div>
+</nav>
+
+<div class="wide-image">
+    <div class="row ">
+        <div class="columns-wrapper">
+            <div class="col-lg-5">
+                <span class="dream-work-text"> Найдите работу <br>мечты</span>
+                <div class="resume-vacancy-buttons">
+                    <a class="btn btn-transparent" href="#" role="button">Разместить резюме</a>
+                    <a class="btn btn-transparent" href="#" role="button">Опубликовать вакансию</a>
+                </div>
+            </div>
+            <div class="col-lg-3 statistic col-lg-offset-1">
+                <span class="numbers">801 169</span><br>
+                <span class="letters">резюме</span><br>
+                <span class="numbers">17 152</span><br>
+                <span class="letters">вакансии</span><br>
+                <span class="numbers">33 526</span><br>
+                <span class="letters">компаний</span><br>
+            </div>
+            <div class="col-lg-3 login-form"></div>
+        </div>
+    </div>
 </div>
 
 
