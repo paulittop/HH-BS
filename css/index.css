@@ -39,7 +39,7 @@ body {
     display: inline-block;
     width: 88px;
     height: 51px;
-    background: url(../../img/hh.ua.svg) no-repeat;
+    background: url(../img/hh.ua.svg) no-repeat;
     background-size: 88px 51px;
     padding: 0;
     margin: 0;
@@ -54,6 +54,10 @@ body {
 
 .search-form {
     display: inline-block;
+}
+.input-field:focus {
+    display: inline-block;
+    outline: 0;
 }
 
 .input-field {
@@ -100,9 +104,7 @@ select.search-filter {
     letter-spacing: normal;
 }
 
-option {
 
-}
 
 .search-buttons {
     display: inline-block;
@@ -157,7 +159,6 @@ option {
     font-size: 11px;
     font-weight: lighter;
     text-decoration: none;
-
 }
 
 .language {
@@ -295,7 +296,6 @@ input.menu-input-field::-webkit-input-placeholder::after{
 }
 
 .statistic {
-
     padding-left: 30px;
     border-left: 1px solid white;
 }
@@ -340,7 +340,7 @@ input.menu-input-field::-webkit-input-placeholder::after{
 .registration {
     padding-left: 30px;
     text-decoration: none;
-    color: #989898;
+    color: #b2b2b2;
 }
 
 .social-networks {

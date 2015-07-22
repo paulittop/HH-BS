@@ -8,7 +8,7 @@ body {
 .header-wrapper {
     -webkit-font-smoothing: antialiased;
     background-color: #F8F8F8;
-    padding: 31px 0 12px 0;
+    padding: 30px 0 12px 2px;
     width: 100%;
     margin: auto;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 .header-form {
-    margin-left: 92px;
+    margin-left: 71px;
     margin-top: 7px;
 }
 
@@ -113,104 +113,226 @@ ul.top-menu {
     -webkit-appearance: none;
 }
 
-.menu-wrapper li:nth-child(2){
-    margin-left:8px;
+.menu-wrapper li:nth-child(2) {
+    margin-left: 9px;
 }
-.menu-wrapper li:nth-child(4){
-    margin-left:5px;
+
+.menu-wrapper li:nth-child(4) {
+    margin-left: 4px;
 }
-.menu-wrapper li:nth-child(6){
-    margin-left:1px;
+
+.menu-wrapper li:nth-child(6) {
+    margin-left: 2px;
 }
 
 .menu-input-field {
     margin: 5px 0 0 15px;
     border-radius: 5px;
     height: 30px;
-    width:140px;
+    width: 140px;
 }
 
-input.menu-input-field::-webkit-input-placeholder{
+input.menu-input-field::-webkit-input-placeholder {
     line-height: normal;
-    font-size:13px;
-    text-indent:0px;
+    font-size: 13px;
+    text-indent: 0px;
     vertical-align: top;
     padding-left: 10px;
     letter-spacing: -1px;
 }
 
-input.menu-input-field::-webkit-input-placeholder::after{
+input.menu-input-field::-webkit-input-placeholder::after {
     font-family: fontAwesome;
-    content:'\f002  ';
+    content: '\f002  ';
     color: grey;
     padding-left: 67px;
     font-size: 17px;
 }
 
-.wide-search-menu a{
-    margin-left:7px;
+.wide-search-menu a {
+    margin-left: 7px;
     font-size: 12px;
     color: #989898 !important;
 }
 
-                    /*WIDE IMAGE*/
+/*WIDE IMAGE*/
 
-.wide-image{
-    background: url("../img/anonymous-background.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
+.wide-image {
+    background: url("../img/anonymous-background.jpg") no-repeat 0 50%;
+    -webkit-background-size: 101%;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     padding: 0;
     margin: 0;
-    color:#fff;
-    font-family: ProximaNovaCond,Arial,sans-serif ;
-}
-.columns-wrapper{
-    margin:42px 0 0 51px;
+    color: #fff;
+    font-family: ProximaNovaCond, Arial, sans-serif;
+    max-width: none;
+    height: 414px;
+
 }
 
-.dream-work-text{
+.columns-wrapper {
+    margin: 42px 0 0 67px;
+}
+
+.dream-work-text {
     font-size: 72px;
-    letter-spacing:-3px;
+    letter-spacing: -3px;
     font-weight: 500;
     line-height: 1.1;
 }
 
-.resume-vacancy-buttons{
+.resume-vacancy-buttons {
     margin-top: 116px;
-    width:500px;
-    margin-right:0;
-    padding-right:0;
+    width: 500px;
+    margin-right: 0;
+    padding-right: 0;
     box-sizing: border-box;
 
 }
-.resume-vacancy-buttons a:last-child{
+
+.resume-vacancy-buttons a:last-child {
     margin-left: 16px;
 }
 
-.btn-transparent{
+.btn-transparent {
     text-decoration: none;
     border: solid 1px white;
     border-radius: 0;
     color: white;
     font-size: 12pt;
-    padding:11px 25px 11px 25px;
+    padding: 11px 25px 11px 25px;
+    background-color: transparent;
 }
 
 .statistic {
-
-    padding-left: 30px;
+    margin: 14px 0 0 86px;
+    padding: 0 0 0 30px;
     border-left: 1px solid white;
 }
 
 .numbers {
-    font-size: 33px;
-    padding-top: 15px;
+    display: block;
+    font-size: 39px;
+    padding: 0px;
+    margin-top: 0px;
+    letter-spacing: normal;
 }
 
 .letters {
     display: block;
-    font-size: 16px;
-    margin-bottom: 10px;
+    font-size: 14px;
+    margin: -9px 0 16px;
+    padding: 0;
 }
+
+.login-form {
+    width: 310px;
+    height: 336px;
+    background-color: rgba(55, 55, 55, 0.5);
+    margin: -3px 0 0 78px;
+    padding-bottom: 50px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.form-wrapper {
+    padding: 16px 0 0 20px;
+}
+
+.registration {
+    color: #787878;
+}
+
+.unlink:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons {
+    margin-top: 14px;
+}
+
+.social-icon {
+    display: inline-block;
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background: transparent url("../img/social-icons.svg") no-repeat;
+    vertical-align: bottom;
+    margin-left: 5px;
+}
+
+.social-icons a:first-child {
+    margin: 0;
+}
+
+.social-icon_mail {
+    background-position: -45px 0;
+}
+
+.social-icon_ok {
+    background-position: -135px 0;
+}
+
+.social-icon_fb {
+    background-position: 0 0;
+}
+
+.social-icon_vk {
+    background-position: -90px 0;
+}
+
+.social-font {
+    font-size: 22px;
+    line-height: 24px;
+    padding: 5px 12px;
+    margin-left: 5px;
+}
+
+.social-google {
+    padding: 5px 8px;
+    background-color: red;
+    border-color: red;
+}
+
+.or-email {
+    display: block;
+    margin-top: 22px;
+    letter-spacing: -1px;
+}
+
+.form-wrapper .form-horizontal {
+    margin-top: 6px;
+}
+
+.form-wrapper .form-group {
+    margin-left: -76px !important;
+}
+
+input.form-control{
+    width:270px;
+}
+
+.form-group .checkbox {
+    margin: -10px 63px;
+    font-size:12px;
+}
+.sign-in-buttons{
+
+    margin:15px 10px 0 63px;
+}
+
+.btn-login{
+    border-color: #0099FF;
+    color:#0099FF;
+    font-size: 14px;
+    padding:8px 15px;
+}
+
+.remind-pwd{
+    margin-left:0px;
+    letter-spacing: -0.5px;
+}
+
+                                /*VACANCIES OF THE DAY*/
