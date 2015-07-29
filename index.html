@@ -10,7 +10,7 @@
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
-<body class="body">
+<body class="page-body">
 
 <header>
     <div class="container header-wrapper">
@@ -23,7 +23,7 @@
                 <form class="form-inline">
                     <div class="form-group">
                         <label class="sr-only" for="exampleInput3">I'm Searching</label>
-                        <input type="text" class="form-control header-form-search input-" id="exampleInput3"
+                        <input type="text" class="form-control input-form input-" id="exampleInput3"
                                placeholder="Я ищу...">
                         <label class="sr-only" for="select-filter">I'm Searching</label>
                         <select class="form-control header-form-select" id="select-filter">
@@ -31,15 +31,15 @@
                             <option>Резюме</option>
                             <option>Компании</option>
                         </select>
-                        <button type="submit" class="btn btn-info header-form-search-btn">Найти</button>
-                        <a class="btn-link header-form-wide-search-btn" href="#">Расширенный поиск</a>
+                        <button type="submit" class="btn btn-info button">Найти</button>
+                        <a class="btn-link link" href="#">Расширенный поиск</a>
                     </div>
                 </form>
             </div>
             <div class="col-md-2 text-right header-right-form">
                 <a href="#" class="btn-link btn-md">Работа в Украине</a>
 
-                <span class="language">RU</span>
+                <span class="header-right-form-language">RU</span>
             </div>
         </div>
     </div>
@@ -47,17 +47,17 @@
 
 <nav class="menu-wrapper">
     <div class="row">
-        <ul class="nav navbar-nav navbar-inverse text-center top-menu">
-            <li class="ellipse"></li>
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+        <ul class="nav navbar-nav navbar-inverse text-center nav-menu">
+            <li class="ellipse menu-item"></li>
+            <li class="dropdown menu-item">
+                <a href="#" class="dropdown-toggle menu-link" data-toggle="dropdown" role="button" aria-haspopup="true"
                    aria-expanded="false">Ищу работу</a>
                 <ul class="dropdown-menu">
                     <li><a href="#">Создать резюме</a></li>
                     <li><a href="#">Как улучшить резюме</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+            <li class="dropdown menu-item"><a href="#" class="dropdown-toggle menu-link" data-toggle="dropdown" role="button"
                                     aria-haspopup="true"
                                     aria-expanded="false">Ищу сотрудников</a>
                 <ul class="dropdown-menu">
@@ -66,8 +66,8 @@
                     <li><a href="#">Описание услуг</a></li>
                 </ul>
             </li>
-            <li><a href="#">Помощь</a></li>
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+            <li class="menu-item"><a class="menu-link" href="#">Помощь</a></li>
+            <li class="dropdown menu-item"><a href="#" class="dropdown-toggle menu-link" data-toggle="dropdown" role="button"
                                     aria-haspopup="true"
                                     aria-expanded="false">Компании</a>
                 <ul class="dropdown-menu">
@@ -75,7 +75,7 @@
                     <li><a href="#">Работа по профессиям</a></li>
                 </ul>
             </li>
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+            <li class="dropdown menu-item"><a href="#" class="dropdown-toggle menu-link" data-toggle="dropdown" role="button"
                                     aria-haspopup="true"
                                     aria-expanded="false">Проекты</a>
                 <ul class="dropdown-menu">
@@ -87,8 +87,8 @@
 
         </ul>
 
-        <input type="text" name="search-phrase" placeholder="Я ищу..." class="menu-input-field fa fa-search">
-        <span class="wide-search-menu"><a href="#">Расширенный</a> </span>
+        <input type="text" name="search-phrase" placeholder="Я ищу..." class="input-field fa fa-search">
+       <a class="link" href="#">Расширенный</a>
     </div>
 </nav>
 
@@ -375,7 +375,7 @@
 
                     <div class="vacancy-wrapper">
                         <a class="vacancy-link" href="#">
-                            <span class="vacancy">C# Team Leader/span>
+                            <span class="vacancy">C# Team Leader</span>
                             <span class="salary">з/п не указана</span>
                         </a>
                         <span class="employer"><a href="#">Ciklum, Киев</a></span>

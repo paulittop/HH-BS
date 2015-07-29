@@ -152,7 +152,7 @@ select.search-filter {
 
 }
 
-.country, .language {
+.country, .header-right-form-language {
     display: inline-block;
     color: #989898;
     line-height: 13px;
@@ -161,7 +161,7 @@ select.search-filter {
     text-decoration: none;
 }
 
-.language {
+.header-right-form-language {
     margin-left: 24px;
 }
 
@@ -216,21 +216,21 @@ li.ellipse {
     margin-right: 28px;
 }
 
-input.menu-input-field{
+input.input-field {
     display: inline-block;
     width:125px;
     height: 23px;
 
 
 }
-input.menu-input-field::-webkit-input-placeholder{
+input.input-field::-webkit-input-placeholder{
     line-height: normal;
     font-size:14px;
     text-indent:15px;
     vertical-align: top;
 
 }
-input.menu-input-field::-webkit-input-placeholder::after{
+input.input-field::-webkit-input-placeholder::after{
     font-family: fontAwesome;
     content:'\f002  ';
     color: grey;
@@ -241,7 +241,7 @@ input.menu-input-field::-webkit-input-placeholder::after{
 .main-menu > ul :last-child {
 }
 
-.menu-input-field {
+.input-field {
     border-radius: 5px;
 }
 
