@@ -2,3 +2,13 @@
     width: 100px;
     border-radius: 3px;
 }
+
+.btn-transparent {
+    text-decoration: none;
+    border: solid 1px white;
+    border-radius: 0;
+    color: white;
+    font-size: 12pt;
+    padding: 11px 25px 11px 25px;
+    background-color: transparent;
+}

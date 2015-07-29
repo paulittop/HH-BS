@@ -1,0 +1,17 @@
+.dream-work__text {
+    font-size: 72px;
+    letter-spacing: -3px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.resume-vacancy-buttons {
+    margin-top: 116px;
+    width: 500px;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.resume-vacancy-buttons__vacancy-btn {
+    margin-left: 16px;
+}

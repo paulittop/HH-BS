@@ -19,7 +19,7 @@
     margin-top: 7px;
 }
 
-.header-form-select {
+.header-form__select {
     margin-left: -5px;
     padding-left: 13px;
     border-top-left-radius: 0;
@@ -34,7 +34,7 @@
     font-size: 11px;
 }
 
-.header-form-select:hover {
+.header-form__select:hover {
     outline: 0 none;
 }
 
@@ -44,6 +44,6 @@
     font-size: 11px;
 }
 
-.header-right-form-language {
+.header-right-form__language {
     padding-left: 26px;
 }

@@ -1,0 +1,102 @@
+.login-form {
+    width: 310px;
+    height: 336px;
+    background-color: rgba(55, 55, 55, 0.5);
+    margin: -3px 0 0 78px;
+    padding-bottom: 50px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.form-wrapper {
+    padding: 16px 0 0 20px;
+}
+
+.login-form__registration-link {
+    color: #787878;
+}
+
+.unlink:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons-bar {
+    margin-top: 14px;
+}
+
+.social-icon {
+    display: inline-block;
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background: transparent url("../../img/social-icons.svg") no-repeat;
+    vertical-align: bottom;
+    margin-left: 5px;
+}
+
+.icons-bar__mail {
+    margin: 0;
+    background-position: -45px 0;
+}
+
+.icons-bar__ok {
+    background-position: -135px 0;
+}
+
+.icons-bar__vk {
+    background-position: -90px 0;
+}
+
+.icons-bar_icons-font {
+    font-size: 22px;
+    line-height: 24px;
+    padding: 5px 12px;
+    margin-left: 5px;
+}
+
+.social-google {
+    padding: 5px 8px;
+    background-color: red;
+    border-color: red;
+}
+
+.login-form_or-email {
+    display: block;
+    margin-top: 22px;
+    letter-spacing: -1px;
+}
+
+.form-horizontal {
+    margin-top: 6px;
+}
+
+.login-form_form-margin {
+    margin-left: -80px !important;
+}
+
+.login-form__input{
+    width:270px;
+}
+
+.login-form__checkbox {
+    padding-top: 0px;
+    margin: 3px 0 0 63px !important; ;
+    font-size:12px;
+}
+
+.sign-in-buttons_margin {
+    margin:25px 10px 0 63px;
+}
+
+.login-form__sign-in-button {
+    border-color: #0099FF;
+    color:#0099FF;
+    font-size: 14px;
+    padding:8px 15px;
+}
+
+.login-form__remind-pwd {
+    margin-left:0px;
+    color:#0099FF;
+    letter-spacing: -0.5px;
+}

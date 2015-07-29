@@ -152,7 +152,7 @@ select.search-filter {
 
 }
 
-.country, .header-right-form-language {
+.country, .header-right-form__language {
     display: inline-block;
     color: #989898;
     line-height: 13px;
@@ -161,7 +161,7 @@ select.search-filter {
     text-decoration: none;
 }
 
-.header-right-form-language {
+.header-right-form__language {
     margin-left: 24px;
 }
 
@@ -182,7 +182,7 @@ select.search-filter {
 
 }
 
-li.ellipse {
+li.nav-menu__ellipse {
     display: inline-block;
     width: 16px;
     height: 29px;
@@ -295,17 +295,17 @@ input.input-field::-webkit-input-placeholder::after{
     color: black;
 }
 
-.statistic {
+.statistics {
     padding-left: 30px;
     border-left: 1px solid white;
 }
 
-.numbers {
+.statistics__numbers {
     font-size: 33px;
     padding-top: 15px;
 }
 
-.letters {
+.statistics__letters {
     display: block;
     font-size: 16px;
     margin-bottom: 10px;
@@ -337,7 +337,7 @@ input.input-field::-webkit-input-placeholder::after{
     padding: 25px 20px;
 }
 
-.registration {
+.login-form__registration-link {
     padding-left: 30px;
     text-decoration: none;
     color: #b2b2b2;
@@ -438,7 +438,7 @@ i.fa-google-plus-square {
     background: url("../../img/Odno.png") no-repeat;
 }
 
-.or-email {
+.login-form_or-email {
     color: #989898;
 }
 
