@@ -8,95 +8,12 @@
 @import "../blocks/dream-work/dream-work.css";
 @import "../blocks/statictics/statistics.css";
 @import "../blocks/login-form/login-form.css";
-
-
-
-
-
-
-
-
-                                /*VACANCIES OF THE DAY*/
-.vacancies-container{
-    margin:30px 25px 47px 68px;
-    padding: 0;
-}
-
-.vacancies-wrapper{
-    margin-top:25px;
-    height:550px;
-    columns: 250px;
-    -webkit-columns: 220px 3 !important;
-    -webkit-column-gap: 40px;
-    -moz-columns: 260px 3;
-    -moz-column-gap: 24px;
-    -moz-column-fill: auto;
-    column-gap: 15px;
-    overflow: hidden;
-}
-
-.h2 {
-    display: block;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 0px 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    vertical-align: top;
-}
-
-.vacancy-wrapper {
-    display: block;
-    max-width: 260px;
-    margin:0 0 13px 0;
-    padding:0;
-    -webkit-column-break-inside: avoid;
-    -webkit-column-break-after: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid;
-    white-space: normal;
-}
-
-.vacancy-link {
-    text-decoration: none;
-    color: black;
-    padding:0;
-    margin:0;
-}
-
-span.vacancy, span.salary {
-    display: block;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-.employer > a {
-    display: block;
-    padding-top:0;
-    font-size: 11px;
-    color: grey;
-    text-decoration: none;
-}
-
-.vacancies-advertise-wrapper {
-    display: inline-block;
-    width: 320px;
-    height: 565px;
-    vertical-align: top;
-    margin:30px 0 0 -15px;
-    padding-bottom: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.advertising-block {
-    border: solid 1px grey;
-    display: block;
-    width: 309px;
-    height: 262px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-}
-
+@import "../blocks/vacancies/vacancies.css";
+@import "../blocks/jumbo-container/jumbo-container.css";
+@import "../blocks/job-in-companies/job-in-companies.css";
+@import "../blocks/banners/banners.css";
+@import "../blocks/profession/profession.css";
+@import "../blocks/bottom-columns/bottom-columns.css";
+@import "../blocks/news/news.css";
+@import "../blocks/stay-in-touch/stay-in-touch.css";
+@import "../blocks/footer/footer.css";

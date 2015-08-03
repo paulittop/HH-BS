@@ -1,0 +1,41 @@
+.professions{
+    margin: 7px 0 0 0;
+    border-bottom: 1px solid gainsboro;
+}
+
+.professions-block {
+    margin: 21px 0 0px 0;
+    padding-bottom: 27px;
+    columns: 320px 3 !important;
+    -webkit-columns: 320px 3 !important;
+    -webkit-column-gap: 0;
+    -moz-columns: 320px 3;
+    -moz-column-gap: 0;
+    -moz-column-fill: auto;
+    column-gap: 0px;
+    overflow: hidden;
+
+}
+
+.professions-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    white-space: normal;
+
+}
+
+.professions-item {
+    padding: 4px 0;
+    max-width: 250px;
+
+
+}
+
+.profession__link {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    line-height: 21px;
+    -webkit-column-break-inside: avoid;
+}

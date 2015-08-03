@@ -1,0 +1,86 @@
+.vacancies_layout {
+    margin: 30px 25px 0px 68px;
+    padding: 0 0px 27px 0;
+    border-bottom: 1px solid gainsboro;
+
+}
+
+.vacancies-wrapper {
+    margin-top: 25px;
+    height: 550px;
+    columns: 320px 3!important;
+    -webkit-columns: 320px 3 !important;
+    -webkit-column-gap: 0;
+    -moz-columns: 320px 3;
+    -moz-column-gap: 0;
+    -moz-column-fill: auto;
+    column-gap: 0px;
+    overflow: hidden;
+}
+
+.vacancy-wrapper {
+    display: block;
+    max-width: 290px !important;
+    margin: 0 0 13px 0 !important;
+    -webkit-column-break-inside: avoid;
+    -webkit-column-break-after: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+
+}
+
+.vacancy-link {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.vacancy__post, .vacancy__salary {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.vacancy__employer {
+    display: block;
+    padding-top: 0;
+    font-size: 10px;
+    color: grey;
+    text-decoration: none;
+}
+
+.vacancies-advertise-wrapper {
+    display: inline-block;
+    width: 320px;
+    height: 565px;
+    vertical-align: top;
+    margin: 16px 0 0 -43px;
+    padding-bottom: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.advertising-block {
+    border: solid 1px gainsboro;
+    display: block;
+    width: 309px;
+    height: 262px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.advertising-block__image {
+    margin: 5px;
+    width: 300px;
+    height: 250px;
+    background: url("../../img/HR-Brand-adv.png") ;
+    background-size: 300px 250px;
+}
+
+.advertising-block:nth-child(2) .advertising-block__image {
+    background-image: url("../../img/send%20resume.jpg");
+}

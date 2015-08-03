@@ -1,5 +1,28 @@
-.page-body {
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-    white-space: nowrap;
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+    -webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
 }
+
+
+
+.h2 {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0px 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    vertical-align: top;
+}
+
+.main-container{
+    margin:0;
+    padding: 0;
+    width:1270px;
+}
+
+
+

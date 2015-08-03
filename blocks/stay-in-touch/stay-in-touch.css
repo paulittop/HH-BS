@@ -1,0 +1,27 @@
+.stay-in-touch{
+    margin-bottom: 000px;
+    padding-bottom: 200px;
+}
+
+.images__wrapper {
+    display: block;
+    padding-left: 140px;
+    width: 120px;
+    height: 120px;
+    background: url("../../img/online.png") no-repeat;
+}
+
+.goo-apple {
+    display: block;
+    margin-bottom: 10px;
+    width: 128px;
+    height: 33px;
+    text-decoration: none;
+    background: #c2bfbb url("../../img/google-store.svg") no-repeat 13px;
+    background-size: 115px;
+    border-radius: 3px;
+}
+
+.goo-apple:last-child {
+    background-position: 13px 3px;
+}

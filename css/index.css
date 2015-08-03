@@ -512,13 +512,13 @@ i.fa-google-plus-square {
     color: black;
 }
 
-span.vacancy, span.salary {
+span.vacancy__post, span.vacancy__salary {
     display: block;
     font-size: 14px;
     line-height: 20px;
 }
 
-.employer > a {
+.vacancy__employer > a {
     font-size: 11px;
     color: grey;
     text-decoration: none;
@@ -587,14 +587,14 @@ span.vacancy, span.salary {
 
 }
 
-.company-name > a {
+.list-item__company-name > a {
     text-decoration: none;
     color: black;
     line-height: 21px;
     font-size: 14px;
 }
 
-.vacancies-quantity {
+.list-item__vacancies-quantity {
     display: inline-block;
     font-size: 14px;
     text-align: right;
@@ -619,7 +619,7 @@ span.vacancy, span.salary {
 
 }
 
-.banner-text > a {
+.banner__text > a {
     display: inline-block;
     width: 120px;
     text-decoration: none;
@@ -631,7 +631,7 @@ span.vacancy, span.salary {
     display: inline-block;
 }
 
-.banner-text {
+.banner__text {
     display: inline-block;
     vertical-align: top;
     white-space: normal;
@@ -674,7 +674,7 @@ ul.list-of-the-links {
 
 }
 
-.link-in-list {
+.profession__link {
     text-decoration: none;
     color: black;
     font-size: 14px;
@@ -700,13 +700,13 @@ ul.list-of-the-links {
     margin: 0;
 }
 
-.news-item {
+.news__item {
     display: block;
     padding: 20px 0 20px;
     border-bottom: 1px solid grey;
 }
 
-.news-text {
+.news__item_text {
     display: inline-block;
     width: 200px;
     white-space: normal;
@@ -770,7 +770,7 @@ p.article {
     background-position: 13px 3px;
 }
 
-.footer-social-link > .fa:before {
+.footer__social-link > .fa:before {
     font-size: 24px;
 }
 
@@ -807,7 +807,7 @@ i.icon-Vkontakte {
     line-height: 21px;
 }
 
-.footer-grey {
+.footer__grey {
     text-decoration: none;
     color: grey;
     border-left: grey solid 1px;
@@ -815,7 +815,7 @@ i.icon-Vkontakte {
     padding-right: 5px;
 }
 
-.footer-grey:last-child {
+.footer__grey:last-child {
     margin-top: 30px;
     border: none;
 }

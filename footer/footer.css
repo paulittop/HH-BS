@@ -1,0 +1,56 @@
+.footer {
+    border-top: gainsboro 1px solid;
+    padding-top: 0px;
+    margin-top: 210px;
+    width:1280px;
+    height: 120px;
+
+}
+.footer__social-link > .fa:before {
+    font-size: 24px !important;
+    }
+
+.fa-facebook {
+    color: #3A5795;
+}
+
+.fa-twitter {
+    color: #659FCB;
+}
+
+.icon-Vkontakte {
+    font-size: 24px !important;
+    color: green;
+    border: none;
+    text-decoration: none
+}
+
+.footer-social {
+    display: inline-block;
+    text-align: right;
+    padding-left: 1000px;
+
+}
+
+
+a.footer_black {
+    text-decoration: none;
+    color: black !important;
+    padding-right: 5px;
+    line-height: 21px;
+    font-size:12px;
+}
+
+a.footer_grey {
+    text-decoration: none;
+    color: grey !important;
+    border-left: grey solid 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size:12px;
+}
+
+.footer__grey:last-child {
+    margin-top: 30px;
+    border: none;
+}
